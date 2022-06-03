@@ -2,7 +2,7 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace TestExample.Repository;
 
-public class DiskDriveRepository
+public class DiskDrive
 {
     public event Action<string> FileReaded;
     
