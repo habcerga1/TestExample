@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using TestExample.Repository;
+using TestExample.Services;
 
 namespace TestExample.Controllers;
 
@@ -14,8 +15,9 @@ public class CatalogController : ControllerBase
         _logger = logger;
     }
 
-    public async Task<IActionResult> Get()
+    public async Task<IActionResult> Get(string file)
     {
+        await new FileService().Request(file);
         return Ok();
     }
 }
