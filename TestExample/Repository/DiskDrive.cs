@@ -10,7 +10,7 @@ public class DiskDrive
     public event Action<string> FileReaded;
     
     /// <summary>
-    /// Read file in Content folder async
+    /// Read file from Content folder async
     /// </summary>
     /// <param name="fileName">File name</param>
     public async Task GetAsync(string fileName)

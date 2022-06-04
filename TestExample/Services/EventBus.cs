@@ -15,13 +15,23 @@ public static class EventBus
     // Mutex for UnSubscribe
     private static Mutex _mutexUnsub = new Mutex();
     
+    /// <summary>
+    /// Subscribe to event
+    /// </summary>
+    /// <param name="Key">Event key</param>
+    /// <param name="callback">Callback function</param>
+    /// <remarks>
+    /// Key is the name of the file and callback is a function
+    /// that is passed during subscription and must take a value.
+    /// </remarks>
+    /// <returns></returns>
     public static Task Subscribe(string Key, Action<string> callback)
     {
         _mutexSub.WaitOne();
         // Checking if file not requested
         if (!_subscribers.ContainsKey(Key))
         {
-            // Add key
+            /// Add key
             _subscribers.Add(new KeyValuePair<string, DiskDrive>(Key,new DiskDrive()));
             
             // First subscribe
