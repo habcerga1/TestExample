@@ -11,6 +11,7 @@ Host runs on the port:
 
 - 🌈 [LOC](https://github.com/habcerga1/TestExample/blob/master/LOC.met)
 - 🌈 [NOM](https://github.com/habcerga1/TestExample/blob/master/NOM.met)
+- 🌈 https://localhost:7000/swagger/index.html
 
 ### 💻: How to use it:
 
