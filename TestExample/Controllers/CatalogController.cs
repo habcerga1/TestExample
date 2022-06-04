@@ -25,6 +25,7 @@ public class CatalogController : ControllerBase
     ///         Get /api/catalog?file="test.txt"
     /// </remarks>
     /// <response code="200">File content</response>
+    /// <response code="400">If the file name is null</response>
     [HttpGet]
     [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
     public async Task<IActionResult> Get(string file)
