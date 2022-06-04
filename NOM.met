@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SNAPSHOT profile="Lines of code metrics" timestamp="Fri, 3 Jun 2022 21:56:19 PDT" version="1.12">
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.LinesOfCSSModuleMetric">
+    <VALUE measured="rider.module" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.LinesOfHTMLModuleMetric">
+    <VALUE measured="rider.module" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.LinesOfJavaScriptModuleMetric">
+    <VALUE measured="rider.module" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.LinesOfXMLModuleMetric">
+    <VALUE measured="rider.module" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.LinesOfCodeModuleMetric">
+    <VALUE measured="rider.module" value="463.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.LinesOfProductCodeModuleMetric">
+    <VALUE measured="rider.module" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.LinesOfTestCodeModuleMetric">
+    <VALUE measured="rider.module" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.SourceLinesOfCodeModuleMetric">
+    <VALUE measured="rider.module" value="258.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.SourceLinesOfCodeProductModuleMetric">
+    <VALUE measured="rider.module" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.SourceLinesOfCodeTestModuleMetric">
+    <VALUE measured="rider.module" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.fileTypeMetrics.LinesOfCodeFileTypeMetric">
+    <VALUE measured="C# file" value="243.0"/>
+    <VALUE measured="Files supported via TextMate bundles" value="23.0"/>
+    <VALUE measured="JSON" value="48.0"/>
+    <VALUE measured="Text" value="125.0"/>
+    <VALUE measured="WIX project file" value="24.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.fileTypeMetrics.NonCommentLinesOfCodeFileTypeMetric">
+    <VALUE measured="C# file" value="163.0"/>
+    <VALUE measured="Files supported via TextMate bundles" value="23.0"/>
+    <VALUE measured="JSON" value="48.0"/>
+    <VALUE measured="WIX project file" value="24.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.CommentLinesOfCodeProjectMetric">
+    <VALUE measured="project" value="80.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.LinesOfCSSProjectMetric">
+    <VALUE measured="project" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.LinesOfHTMLProjectMetric">
+    <VALUE measured="project" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.LinesOfJavaScriptProjectMetric">
+    <VALUE measured="project" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.LinesOfXMLProjectMetric">
+    <VALUE measured="project" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.LinesOfCodeProjectMetric">
+    <VALUE measured="project" value="463.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.LinesOfProductCodeProjectMetric">
+    <VALUE measured="project" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.LinesOfTestCodeProjectMetric">
+    <VALUE measured="project" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.SourceLinesOfCodeProjectMetric">
+    <VALUE measured="project" value="258.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.SourceLinesOfCodeProductProjectMetric">
+    <VALUE measured="project" value="0.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.SourceLinesOfCodeTestProjectMetric">
+    <VALUE measured="project" value="0.0"/>
+  </METRIC>
+</SNAPSHOT>
