@@ -43,11 +43,11 @@ public static class EventBus
              We launch the file reading task and after its completion we launch the unsubscribe task,
              it will happen after the event FileReaded  in class DiskDrive notifies all its subscribers 
              */
-            Task.Run( async () =>
+            Task.Run(  () =>
             {
                 DiskDrive reader;
                 _subscribers.TryGetValue(Key, out reader);
-                await reader.GetAsync(Key);
+                 reader.GetAsync(Key);
             }).ContinueWith( t => UnSubscribe(Key) );
         }
         else
