@@ -29,6 +29,10 @@ public static class EventBus
             _subscribers.TryGetValue(Key, out disk);
             disk.FileReaded += callback;
             
+            /*
+             We launch the file reading task and after its completion we launch the unsubscribe task,
+             it will happen after the event FileReaded  in class DiskDrive notifies all its subscribers 
+             */
             Task.Run( async () =>
             {
                 DiskDrive reader;
@@ -46,7 +50,7 @@ public static class EventBus
         return Task.CompletedTask;
     }
     
-    public static void UnSubscribe(string Key)
+    private static void UnSubscribe(string Key)
     {
         _mutexUnsub.WaitOne();
         // Checking if file not requested

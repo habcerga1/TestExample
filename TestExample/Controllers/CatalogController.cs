@@ -21,10 +21,12 @@ public class CatalogController : ControllerBase
     /// <param name="fileName">file name which user request in query</param>
     /// <returns>Requested file</returns>
     /// <remarks>
-    ///     Request example:
-    ///     Get /api/catalog?file="test.txt"
+    ///         Request example:
+    ///         Get /api/catalog?file="test.txt"
     /// </remarks>
+    /// <response code="200">File content</response>
     [HttpGet]
+    [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
     public async Task<IActionResult> Get(string file)
     {
         return Ok(await new FileService().Request(file));
