@@ -2,7 +2,7 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace TestExample.Repository;
 
-public class DiskDrive
+public class DiskDrive 
 {
     /// <summary>
     /// The event that is called after reading the file
@@ -20,8 +20,11 @@ public class DiskDrive
         // Check if file exist
         if (System.IO.File.Exists(file))
         {
-            var result = await System.IO.File.ReadAllTextAsync(file);
-            if(FileReaded != null) FileReaded.Invoke(result);
+            // For normal work just uncommit row bellow, delete rows 25,26 and replase to result in FileReaded.Invoke(requestedTime);
+            //var result = await System.IO.File.ReadAllTextAsync(file);
+            var requestedTime = $"File Guid: {Guid.NewGuid()} Requested time: {DateTime.Now}"; 
+            await Task.Delay(2000);
+            if(FileReaded != null) FileReaded.Invoke(requestedTime);
         }
         else
         {

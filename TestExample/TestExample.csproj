@@ -15,6 +15,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Content Include="Content\Test2.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
       <None Remove="Content\Test.txt" />
       <Content Include="Content\Test.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>

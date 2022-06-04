@@ -46,8 +46,8 @@ public static class EventBus
             Task.Run( async () =>
             {
                 DiskDrive reader;
-                _subscribers.TryGetValue(Key, out disk);
-                await disk.GetAsync(Key);
+                _subscribers.TryGetValue(Key, out reader);
+                await reader.GetAsync(Key);
             }).ContinueWith( t => UnSubscribe(Key) );
         }
         else
