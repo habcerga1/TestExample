@@ -3,11 +3,14 @@
 ### 👨‍💻: Host settings:
 
 Host runs on the port:
-- :zap: http://localhost:5000
+- :seedling: http://localhost:5000
 
 - :seedling: https://localhost:7000
 
+### 👨‍💻: Metrics:
 
+- 🌈 [LOC](https://github.com/habcerga1/TestExample/blob/master/LOC.met)
+- 🌈 [NOM](https://github.com/habcerga1/TestExample/blob/master/NOM.met)
 
 ### 💻: How to use it:
 
@@ -34,5 +37,6 @@ await. If you immediately apply for different files, the request time will be ±
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-plain.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/dotnetcore/dotnetcore-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
+  <img src="https://seeklogo.com/images/S/swagger-logo-A49F73BAF4-seeklogo.com.png" title="Java" alt="Java" width="40" height="40"/>&nbsp;
 </div>
 
