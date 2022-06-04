@@ -21,11 +21,11 @@ public class DiskDrive
         if (System.IO.File.Exists(file))
         {
             var result = await System.IO.File.ReadAllTextAsync(file);
-            FileReaded.Invoke(result);
+            if(FileReaded != null) FileReaded.Invoke(result);
         }
         else
         {
-            FileReaded.Invoke("File not exist");
+            if(FileReaded != null)  FileReaded.Invoke("File not exist");
         }
     }
 }
